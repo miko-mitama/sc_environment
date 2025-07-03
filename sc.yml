@@ -1,0 +1,43 @@
+name: sc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - r-base=4.2.3
+  - r-essentials
+  - r-devtools
+  - r-gam
+  - r-rcolorbrewer
+  - r-glmnet
+  - r-glue
+  - r-igraph
+  - r-curl
+  - r-xml2
+  - r-rcurl
+  - r-ragg
+  - r-data.table
+  - r-locfit
+  - r-png
+  - libcurl
+  - zlib
+  - libxml2
+  - gsl
+  - cmake
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - jupyter
+  - h5py
+  - tqdm
+  - seaborn
+  - statsmodels
+  - python-igraph
+  - louvain
+  - pip
+  - pip:
+      - scanpy
+      - anndata
+      - rpy2
+      - git+https://github.com/flying-sheep/anndata2ri
